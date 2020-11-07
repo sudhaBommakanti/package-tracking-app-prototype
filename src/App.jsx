@@ -11,7 +11,22 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        
+        <Switch>
+        <Route
+            path="/"
+            exact
+            
+            
+          />
+          <Route 
+            path="/contact"
+           
+          />
+          <Route 
+            path="/profile"
+           
+          />
+        </Switch>
         <Footer />
       </div>
     </Router>
