@@ -1,0 +1,12 @@
+body {
+    margin:0;
+    background: #CACCB9 url('../../assets/images/bgImg.jpg')no-repeat fixed center;
+    background-size: cover;
+    padding: 0;
+    max-width: 100%;
+}
+
+.App {
+    color:#212121;
+    font-family: Arial, Helvetica, sans-serif;
+}
