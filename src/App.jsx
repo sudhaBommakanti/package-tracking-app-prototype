@@ -1,7 +1,12 @@
-import './css/App.css';
-import './css/style.css';
+import "./css/App.css";
+import "./css/style.css";
 
 import { useState, useEffect } from "react";
+
+import HomePage from "./components/templates/HomePage";
+import ContactPage from "./components/templates/ContactPage";
+import ProfilePage from "./components/templates/ProfilePage";
+import OrdersPage from "./components/templates/ProfilePage";
 
 import Header from "./components/organisms/Header";
 import Footer from "./components/organisms/Footer";
@@ -29,21 +34,21 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        {console.log(information)};
         <Switch>
-        <Route
+          <Route
             path="/"
             exact
-            
-            
+            render={() => <HomePage information={information} />}
+            information={information}
           />
-          <Route 
-            path="/contact"
-           
-          />
-          <Route 
-            path="/profile"
-           
+          <Route path="/contact" render={() => <ContactPage />} />
+          <Route path="/profile" render={() => <ProfilePage />} />
+          <Route
+            path="/orderdetails/:query"
+            render={({ match }) => (
+              <OrdersPage match={match} information={information} />
+            )}
+            information={information}
           />
         </Switch>
         <Footer />

@@ -4,3 +4,75 @@
 /* Organisms */
 @import url("./modules/header.css");
 @import url("./modules/footer.css");
+@import url("./modules/card.css");
+
+/* Templates */
+@import url("./templates/homepage.css");
+@import url("./templates/contactpage.css");
+@import url("./templates/profilepage.css");
+
+@media screen and (max-width: 750px) {    
+  
+
+    ul.footer-nav-links li {
+        padding:1rem;
+    }
+
+    ul.footer-nav-links {
+        margin:0;
+        padding:0;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction:column;
+        flex: 1 1 auto;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .card {
+        margin:0;
+    }  
+    
+    .contact-grid {
+        margin:0;
+        padding:0;
+    }
+
+    .section {
+        margin:0;
+    }
+
+    .contact-section-title {
+        margin:0;
+        padding-top:3rem;
+    }
+
+    .classGmail {
+        width:60%;
+    }
+
+    .icon-title {
+        padding:0;
+        text-align:left;
+        font-size:14px;
+    }
+} 
+
+/* profile page responsive */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+
+}
+@media screen and (max-width: 768px) {
+
+   
+}

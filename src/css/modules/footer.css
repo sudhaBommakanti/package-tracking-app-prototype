@@ -4,7 +4,35 @@
     padding:1rem;
     width: 100%;
     text-align:center;
-    position: absolute;
-    height : 40px;
+    /* position: absolute;  */
+    /* height : 80px; */
+    min-height:10vh;
     color:white;
 }
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:10vh;
+    background-color:#00a0d6;
+    /* background: rgb(73,79,82);  */
+    /* background:rgb(74, 90, 95); */
+    color:white;
+  }
+  
+  .footer-nav-links {
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .span-li-item {
+      display: inline-block;
+  }
+
+  ul a {
+    text-decoration: none !important;
+  }

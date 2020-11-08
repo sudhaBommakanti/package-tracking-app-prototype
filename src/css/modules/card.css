@@ -1,0 +1,52 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 310px;
+    height: 310px;
+    padding: 10px;
+    margin-left:1.2rem;
+    border-radius:10%;
+    /* background-color: #f1f1f1; */
+}
+
+.header-block {
+    background-color:#00a0d6;
+}
+
+p {
+    text-align:left;
+}
+
+.map-icon {
+    margin:0;
+   
+}
+
+.circleIcon, .mapIcon {
+    background:grey;
+    padding:10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.span-card-item {
+    padding-left:0.4rem;
+}
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color:grey;
+    border-radius: 60%;
+    padding-top:1rem;
+    display: inline-block;
+    text-align: center;
+    font-weight:bold
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container {
+    padding: 2px 16px;
+}

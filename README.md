@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Github:
+[(https://github.com/sudhaBommakanti)]
+
+#Class Diagram or UML 
+[![image info](//Users/sudhabommakanti/desktop/To-Do-List-Class-Diagram.png)
+
+### Tech requirements:
+This application was built by:
+- Visual Studio Code
+- React Js
+- Node.js
+
+License
+----
+Open Source Project.

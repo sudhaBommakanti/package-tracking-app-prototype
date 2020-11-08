@@ -1,0 +1,15 @@
+.home-page {
+    height:100%;
+    padding:14px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:20px;
+}
+
+.check {
+    padding-top: 4rem;
+    color:black;
+}
